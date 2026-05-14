@@ -25,6 +25,15 @@ pip install -r requirements.txt
 The dataset information is controlled by `dataset_config.py`.  
 Before running the code, please modify this file to select the dataset and set the corresponding dataset statistics and file paths.
 
+## Model Directory
+
+Before training, please create the `model` folder to save the trained model files.
+
+```bash
+cd RMCD
+mkdir model
+```
+
 ## Graph Construction
 
 Before training and evaluation, please build the graph files:
@@ -40,3 +49,7 @@ Run the following command to train and evaluate RMCD:
 ```bash
 python main.py
 ```
+
+## Pretrained Weights
+
+Due to the large size of the trained weights, we do not include them in this repository.
