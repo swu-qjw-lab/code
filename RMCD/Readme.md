@@ -53,3 +53,5 @@ python main.py
 ## Pretrained Weights
 
 Due to the large size of the trained weights, we do not include them in this repository.
+You can download the pretrained weights of RMCD from the following link:
+[RMCD Pretrained Weights](https://higa.teracloud.jp/share/11e23dc7de43f528)
