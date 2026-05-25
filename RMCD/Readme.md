@@ -50,6 +50,17 @@ Run the following command to train and evaluate RMCD:
 python main.py
 ```
 
+## Citation
+
+```text
+@inproceedings{qu2026relation,
+  title={Relation-Aware Graph Learning with Mixture-of-Experts Prediction for Cognitive Diagnosis},
+  author={Qu, Jingwei and Zhang, Mingze and Zhang, Pingshun and Tao, Li and Wang, Ying and Yang, Zhaofang and Ling, Haibin},
+  booktitle={Proceedings of the International Joint Conference on Artificial Intelligence},
+  year={2026},
+  publisher={IJCAI}
+}
+```
 ## Pretrained Weights
 
 Due to the large size of the trained weights, we do not include them in this repository.
