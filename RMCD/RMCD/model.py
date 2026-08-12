@@ -81,7 +81,7 @@ class Net(nn.Module):
                 if param.dim() > 1:
                     nn.init.xavier_normal_(param)
                 else:
-                    nn.init.normal_(param, mean=0.0, std=0.01) 
+                    nn.init.normal_(param, mean=0.0, std=0.1) 
         self.to(self.device)
 
     def forward(self, stu_id, exer_id, kn_r, return_loss=False, return_analysis=False):
